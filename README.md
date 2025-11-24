@@ -24,17 +24,15 @@ It lets you generate strong random passwords with a clean dark UI and copy them 
 - `random` and `string` modules for password generation
 
 ---
-
 ## 📁 File Structure
 
 You only need one main Python file, for example:
+text
+password_generator.py
+README.md  
 
-```text
-.
-├── password_generator.py   
-└── README.md               
-
-
+---    
+        
 ## How It Works 
 The GUI is built using Tkinter and ttk widgets.
 
@@ -109,4 +107,3 @@ Add a strength meter (Weak / Medium / Strong)
 Option to save generated passwords to a file
 
 Add a light/dark mode toggle
-

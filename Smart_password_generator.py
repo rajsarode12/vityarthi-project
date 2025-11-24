@@ -187,7 +187,7 @@ class SimpleStylishPasswordGenerator:
         self.root.after(2500, lambda: self.status_var.set(""))
 
 if __name__ == "__main__":
-    print("Starting GUI...")  # to see in terminal that script starts
+    print("Starting GUI...")  
     root = tk.Tk()
     app = SimpleStylishPasswordGenerator(root)
     root.mainloop()
